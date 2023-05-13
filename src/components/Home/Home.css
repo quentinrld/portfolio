@@ -1,0 +1,11 @@
+.link svg {
+    width: 30px;
+    height: 30px;
+}
+.button {
+    margin: 15px;
+    display: flex;
+}
+.button .btn_shadow {
+    margin-left: 10px;
+}
