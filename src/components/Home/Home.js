@@ -2,7 +2,7 @@ import React from "react"
 import "./Home.css"
 import Profil_img from "../../assets/profil-img-1.jpeg"
 
-import { DiGithub, DiGithubAlt}from 'react-icons/di'
+import { DiGithubAlt}from 'react-icons/di'
 import { FaLinkedin } from 'react-icons/fa'
 import { AiOutlineMail } from "react-icons/ai";
 
@@ -29,12 +29,12 @@ const Home = () => {
                             <h3>Retrouvez-moi</h3>
                             <div className="button">
                                 <button className="btn_shadow">
-                                    <a href="https://github.com/quentinrld" target="_blank">
+                                    <a href="https://github.com/quentinrld" target="_blank" rel="noreferrer">
                                         <DiGithubAlt/>
                                     </a>
                                 </button>
                                 <button className="btn_shadow">
-                                    <a href="https://www.linkedin.com/in/quentin-roeland-6ba7b3274/" target="_blank">
+                                    <a href="https://www.linkedin.com/in/quentin-roeland-6ba7b3274/" target="_blank" rel="noreferrer">
                                         <FaLinkedin/>
                                     </a>
                                 </button>

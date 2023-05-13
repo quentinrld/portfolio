@@ -190,3 +190,9 @@ position: absolute;
     padding-top: 15px;
     height: 130px;
 }
+#portfolio,
+#about,
+#home {
+    margin-top: -130px;
+    padding-top: 130px;
+}

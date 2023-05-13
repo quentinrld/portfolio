@@ -15,7 +15,7 @@ const NavBar = () => {
             <header className="header">
                 <div className="container d_flex">
                     <div className="logo">
-                        <img src={logo} width={60}/>
+                        <img src={logo} width={60} alt="logo"/>
                     </div>
                     <div className="navlink">
                         <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
@@ -29,7 +29,7 @@ const NavBar = () => {
                                 <a href="#portfolio">Portfolio</a>
                             </li>
                             <li>
-                                <a href={CV} target="_blank">CV</a>
+                                <a href={CV} target="_blank" rel="noreferrer">CV</a>
                             </li>
                         </ul>
                         <button className="toggle" onClick={() => setMobile(!Mobile)}>

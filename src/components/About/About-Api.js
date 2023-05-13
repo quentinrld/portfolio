@@ -1,8 +1,7 @@
-import { FaPython, FaNodeJs, FaReact, FaJs, FaCss3, FaFigma, FaHtml5, FaVuejs } from 'react-icons/fa'
-import { DiBootstrap, DiGithubAlt, DiNodejs, DiReact, DiGitBranch, DiPython, DiSqllite } from 'react-icons/di'
-import {SiPostgresql, SiArduino} from 'react-icons/si'
-import {CgCPlusPlus} from 'react-icons/cg'
-import {IoLogoJavascript} from 'react-icons/io'
+import { FaPython, FaNodeJs, FaReact, FaCss3, FaFigma, FaHtml5, FaVuejs } from 'react-icons/fa'
+import { DiGitBranch, } from 'react-icons/di'
+import {SiPostgresql, } from 'react-icons/si'
+
 import {GrDocker} from 'react-icons/gr'
 const data = [
 
