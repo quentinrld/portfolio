@@ -1,77 +1,21 @@
-import elecrtonique from '../../assets/Dévlopper un robot connecter en bluetooth.jpg'
-import secu from '../../assets/donnée personnelle .jpg'
-import ctf from '../../assets/CTF-ephec.png'
-import hackaton from '../../assets/hackaton1.jpg'
-import patro from '../../assets/patro.jpg'
-import natation from '../../assets/natation.jpg'
-import soudure from '../../assets/soudure.png'
-import patterson from '../../assets/patterson2.jpg'
+import Biobanque from '../../assets/Biobanque.jpg'
+import Portfolio from '../../assets/portfolio.png'
 
 const data = [
-    // {
-    //     Activié: "Hackathon",
-    //     HPresté: "48h",
-    //     HValidé: "10h",
-    //     Thème: "Développemnt",
-    //     Description: "En 2021, j'ai participé au hackathon organisé par l'EPHEC durant un week-end. On était par équipe de 4 étudiants pour créer un site web avec comme thème de base le développement durable.                                                                                               ",
-    //     Preuve: <img src={hackaton}/>,
-    // },
-    // {
-    //     Activié: "Electronique connecter en bluetooth",
-    //     HPresté: "15h",
-    //     HValidé: "10h",
-    //     Thème: "Electronique",
-    //     Description: "Dans le cadre de mon tfe, j'ai comme projet d'intégrer de l'électronique dans mon projet. J'ai donc pris l'initiative de suivre une formation en ligne pour être sûr de mes bases d'électronique avec des cartes dans le style des arduino pour pouvoir commencer correctement mon projet.",
-    //     Preuve: <img src={elecrtonique}/>,
-    // },
-    // {
-    //     Activié: "Professeur de Natation",
-    //     HPresté: "+100h",
-    //     HValidé: "10h",
-    //     Thème: "Soft Skill",
-    //     Description: "J'ai fait mes études secondaires dans des études sportives et donc à ce moment-là ça me paraissais logique d'avoir un job dans le sport. J'ai donc commencé à travailler comme profs de natation et depuis, je n'ai pas arrêté.",
-    //     Preuve: <img src={natation}/>,
-    // },
-    // {
-    //     Activié: "Soudure électronique",
-    //     HPresté: "5h",
-    //     HValidé: "5h",
-    //     Thème: "Soudure",
-    //     Description: "Avec mon tfe j'ai soudé beaucoup de composant différent et surtout de très petit composant avec lesquels je n'étais pas alaise au début.",
-    //     Preuve: <img src={soudure}/>,
-    // },
-    // {
-    //     Activié: "CTF",
-    //     HPresté: "1h",
-    //     HValidé: "10h",
-    //     Thème: "Cyber Sécurité",
-    //     Description: "J'ai eu l'occasion de participer à un capture the flag organiser par des étudiants dans le cadre de leurs tfe en 2022.                                                                                                                                                                    ",
-    //     Preuve: <img src={ctf}/>,
-    // },
-    // {
-    //     Activié: "Protéger les données personnelles",
-    //     HPresté: "15h",
-    //     HValidé: "10h",
-    //     Thème: "Cyber Sécurité",
-    //     Description: "Dans le cadre de mon tfe, j'ai besoin de gérer des données à caractère très personnel. J'ai donc renforcé mes connaissances sur la sécurité des données personnelles.",
-    //     Preuve: <img src={secu}/>,
-    // },
-    // {
-    //     Activié: "Mouvement de jeunesse",
-    //     HPresté: "+100h",
-    //     HValidé: "10h",
-    //     Thème: "Soft Skill",
-    //     Description: "Depuis tout petit, j'ai toujours été dans les mouvements de jeunesse et donc quand j'ai eu l'age, j'ai animé à mon tour pendant un long moment.",
-    //     Preuve: <img src={patro}/>,
-    // },
+    {
+        projetName: "Profolio",
+        techStack: "React, CSS, API",
+        equipe: "Personnel",
+        Description: "Ce projet de Portfolio personnel présente une collection de mes réalisations en développement web. Il est conçu pour offrir un aperçu de mes compétences techniques et créatives, avec des sections détaillant mes projets récents, les technologies que j’utilise, ainsi que des informations sur mon parcours professionnel. Ce portfolio est entièrement responsive, construit avec React pour le front-end et une gestion des données via une API local. L’objectif de ce projet est de créer une interface moderne et fonctionnelle pour mettre en valeur mes projets professionnels, tout en permettant une expérience utilisateur fluide et agréable.",
+        apercu: <img src={Portfolio}/>,
+    },
+    {
+        projetName: "BioBanque",
+        techStack: "Spring, Angular, PostgreSQL",
+        equipe: "7 développeurs, 1 BA",
+        Description: "RumExperts réalise des essais cliniques en ferme et collecte des échantillons biologiques qui sont ensuite conservés au congélateur pour pouvoir être utilisé dans de futures analyses.Ce projet a pour objectif de créer un outil dédié à l'encodage et au stockage des données des échantillons biologiques, ainsi qu'au suivi de leurs entrées, sorties et dates de péremption. Cet outil permettra une gestion efficace des échantillons conservés dans la biobanque.",
+        apercu: <img src={Biobanque}/>,
+    },
     
-    // {
-    //     Activié: "L'affaire Patterson",
-    //     HPresté: "72h",
-    //     HValidé: "10h",
-    //     Thème: "Acting",
-    //     Description: "J'ai un ami qui m'a proposé de jouer dans le film qu'il avait imaginé et écris. J'ai donc accepté et on s'est retrouvé entre amis pour réaliser ce projet fou. ",
-    //     Preuve: <img src={patterson}/>,
-    // },
 ]
 export default data

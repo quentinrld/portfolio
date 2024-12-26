@@ -1,25 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #565656;
 }
+
 .container {
   max-width: 95%;
   margin: auto;
   margin-bottom: 30px;
 }
+
 .d_flex {
   display: flex;
   justify-content: space-between;
 }
+
 .f_flex {
   display: flex;
   flex-direction: row;
@@ -27,16 +33,20 @@ body {
   gap: 1rem;
   justify-content: space-between;
 }
+
 a {
   text-decoration: none;
   color: #ccc;
 }
+
 li {
   list-style: none;
 }
+
 .uppercase {
   text-transform: uppercase;
 }
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -57,76 +67,122 @@ button {
   margin-bottom: 15px;
   display: flex;
 }
+
 button.btn_shadow:hover svg {
   color: #333;
 }
+
 .btn_shadow {
   background: linear-gradient(145deg, #505050, #333333);
-  box-shadow: 4px 4px 8px #505050, -4px -4px 8px #333333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ccc;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
+
 .btn_shadow:hover {
   background: #cccccc;
-  color: #343434!important;
-  transform: translateY(-10px);
+  color: #343434 !important;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
+
 .box_shodow {
   background: linear-gradient(145deg, #444444, #333333);
   box-shadow: 4px 4px 8px #505050, -4px -4px 8px #343434;
   border-radius: 10px;
 }
-.right{
-  margin: 0 auto!important;
+
+.box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex; /* Utilisation de flexbox pour aligner les éléments à l'intérieur */
+  flex-direction: column; /* Aligne les éléments (logo et titre) verticalement */
+  justify-content: center;
+  padding: 15px; /* Espacement interne */
 }
-.left{
-  width: 42rem!important;
+
+.right {
+  margin: 0 auto !important;
+}
+
+.left {
+  width: 42rem !important;
   margin-right: 3rem;
 }
+
 .row,
 .right {
-  width: 35rem!important;
+  width: 35rem !important;
 }
-.top {
-  margin-top: 80px;
 
+.top {
+  margin-top: 50px;
+}
+
+.spacer {
+  height: 30px;
 }
 
 .mtop {
   margin-top: 40px;
 }
+
 .heading {
   margin: 50px 0 20px 0;
 }
+
 .heading h4 {
   color: #01e1ff;
   letter-spacing: 2px;
   font-weight: 400;
 }
+
 .heading h1 {
   font-size: 50px;
   color: #bbb;
 }
-h3{
+
+h4 {
+  color: #ddd;
+  font-size: 20px;
+}
+
+h3 {
   color: #ddd;
   font-size: 30px;
 }
+
 h1 {
   color: #bbbbbb;
   font-size: 40px;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
 }
+
 p {
   color: #cccccc;
+  padding-bottom: 10px !important;
 }
+
 .text-center {
   text-align: center;
 }
+
 .primary_color {
   color: #01e1ff;
 }
+
 textarea,
 input {
   width: 100%;
@@ -136,126 +192,153 @@ input {
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
+
+.img-profil {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.tech-logo {
+  display: flex;
+  justify-content: center; /* Centrer le logo */
+  margin-bottom: 10px; /* Espacement entre le logo et le titre */
+}
+
+.title-card {
+  text-align: center; /* Centrer le titre */
+  font-size: 1.1rem; /* Taille du texte du titre */
+}
+
 /*----------Footer---------*/
-footer {
-  margin: 2rem;
+.footer {
+  width: 100%;
+  background-color: #333;
+  padding: 1px 0;
+  position: relative;
+  bottom: 0;
 }
-footer p {
-  margin-top: 30px;
+
+.footer p {
+  margin: 10px 0;
 }
-/*----------Footer---------*/
-@media (max-width: 768px) {
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .box {
+    flex-direction: column; /* Assurer que les éléments restent en colonne */
+    padding: 20px; /* Augmenter l'espacement interne */
+  }
 
   .grid {
-    grid-template-columns: repeat(1, 1fr);
-    
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les écrans moyens */
   }
-  .grid-skills{
-    grid-template-columns: repeat(2, 1fr);
-    
+
+  .left, .row, .right {
+    width: 100% !important; /* Full width pour les grandes sections */
+    margin-right: 0 !important; /* Enlever les marges */
   }
-  .row-btn{
-    justify-content: center;
-    
+
+  .heading h1 {
+    font-size: 40px; /* Taille du titre réduite */
   }
-  .container.f_flex.top{
-   display: block!important;
+
+  .tech-logo {
+    margin-bottom: 15px; /* Augmenter l'espace entre le logo et le titre */
   }
-  .heading h4{
-    font-size: 13px;
+
+  .title-card {
+    margin: 0%;
+    font-size: 1rem; /* Augmenter légèrement la taille du titre pour une meilleure visibilité */
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column; /* Toujours en colonne pour les écrans plus petits */
+    padding: 15px; /* Espacement plus léger */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* 1 colonne sur les petits écrans */
+    grid-gap: 20px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .left, .right {
+    width: 100% !important; /* Pleine largeur */
+    margin-right: 0 !important;
+  }
+
+  .heading h1 {
+    font-size: 35px; /* Taille du titre encore plus petite */
+  }
+
+  .img-profil {
+    display: none;
+  }
+
+  .btn_shadow {
+    padding: 15px 20px; /* Boutons plus petits */
+  }
+
+  h1, h3, h4 {
+    font-size: 20px; /* Taille du texte réduite */
+  }
+
+  .top {
+    margin-top: 30px; /* Moins d'espace en haut */
+  }
+
+  .tech-logo {
+    margin-bottom: 10px; /* Espacement réduit */
+  }
+
+  .title-card {
+    margin: 0%;
+    font-size: 0.8rem; /* Réduire la taille du titre sur les écrans plus petits */
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    padding: 10px; /* Réduire l'espacement interne sur les petits écrans */
+  }
+
+  .heading h1 {
+    font-size: 30px; /* Plus petite taille pour les petits écrans */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* 1 colonne */
+  }
+
+  .btn_shadow {
+    padding: 12px 18px; /* Boutons plus petits */
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .text-center {
     text-align: center;
   }
-  section#portfolio .container {
-    max-width: 95%;
-    margin: 2rem!important;
-}
 
-  .Resume .content{
-    max-width: 86vw;
-    margin-left: 1.7rem;
+  .footer {
+    padding: 10px 0;
   }
-  .heading{
-   
-    text-align: center;
-  }
-  .resume-years {
-    text-align: center;
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
-}
-  .hm_hyperModalWrapper .hm_hyperModalContentWrapper {
 
-    width: 24rem!important;
-    height: 40rem!important;
+  .img-profil {
+    display: none;
+  }
+  .tech-logo {
+    margin-bottom: 5px; /* Espacement minimal entre le logo et le titre */
+  }
 
+  .title-card {
+    display: none; /* Taille du titre encore réduite */
+  }
 }
-  .hero .right_img img{
-    width: 80vw;
-  }
-  .left,
-  .right {
-    width: 100%;
-  }
-  .education{
-    text-align: justify;
-    margin-left: 2rem;
-    font-size: 40px!important;
-  }
-  .left, .right{
-    width: 100%!important;
-  }
-  .modal-content{
-    top: 2% !important;
-
-  }
-  .grid-table {
-    display: block!important;
-    
-    overflow: scroll!important;
-    /* padding: 0 5rem; */
-    margin: 0 0.5rem!important;
-    /* margin: 0 4rem 1rem 4rem!important; */
-}
-  .left.top h3{
-    text-align: center;
-  }
-  .left.top h1{
-    text-align: center;
-  }
-  .container.f_flex.top {
-    margin: 2rem;
-}
-  .container.f_flex.top.left{
-    margin-right: 0rem!important;
-    display:flex;
-    gap:3rem;
-    flex-direction: column!important;
-    justify-content:center!important;
-    align-items:center!important;
-  }
-  header{
-    line-height: 4;
-  }
-  .d_flex {
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-between; */
-}
-  .hero .right_img {
-    border-radius: 10px;
-    margin-top: 3rem!important;
-    margin-bottom: 0!important;
-    height: auto;
-}
-
-.d_flex {
-  display: flex;
-  justify-content: space-between;
-}
-}
-

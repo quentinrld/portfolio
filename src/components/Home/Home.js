@@ -8,38 +8,50 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const Home = () => {
     return(
-        <>
             <section className="home" id="home">
                 <div className="container f_flex top">
                     <div className="left top">
-                        <h3>Bonjour</h3>
-                        <h1>Je m'appel Roeland Quentin</h1>
-                        <p>
-                            Je suis né le 7 avril 1999 à Bruxelles, en Belgique<br/>
-                            Actuellement en dernière année d'un bachelier en technologie de l'informatique à l'EPHEC. Et depuis février en stage d'intégration professionnel chez JustLikeU. Être dans un environement professionnel permet d'en apprendre tout les jours en améliorant ses connaissance.
-                        </p>
-                        <p>
-                            J'aime découvrir de nouvelles technologie et je m'efforce d'en apprendre toujours plus sur celle-ci<br/>
-                            Cette année en tant qu'étudiant à l'EPHEC est bientôt finie et je serai diplomé avant la fin 2023.
-                        </p>
-                        <p>
-                            Avec le stage que j'ai pu faire cette année 2023 dans l'agance qui m'a accueillit, je pense que travaillé avec une petite équipe dynamique serait une bonne chose pour l'avenir. L'aspect hardware et traitement des données est aussi une filliaire dans laquelle j'aimerais me dévlopper.
-                        </p>
+                    <h3>Bonjour et bienvenue sur mon portfolio !</h3>
+                        <section>
+                            <h4>À propos de moi</h4>
+                            <p>
+                                Je m'appelle <strong>Roeland Quentin</strong>, développeur Full Stack spécialisé en Java, passionné par les technologies 
+                                de l'information et toujours curieux d'en apprendre davantage.
+                            </p>
+                        </section>
+                        <section>
+                            <h4>Mon parcours</h4>
+                            <p>
+                                Diplômé d'un bachelier en technologie de l'informatique à l'EPHEC en 2023, j'ai également terminé une formation intensive 
+                                en développement Full Stack Java chez Technofutur TIC. Cette formation m'a permis de renforcer mes compétences dans la 
+                                création d'applications web et d'approfondir mes connaissances techniques.
+                            </p>
+                        </section>
+                        <section>
+                            <h4>Pourquoi moi ?</h4>
+                            <p>
+                                Mon expérience s'étend du développement frontend et backend à la gestion de bases de données et aux méthodologies 
+                                agiles. J'ai eu l'opportunité de travailler sur des projets concrets en entreprise et dans des cadres académiques, 
+                                qui m'ont permis de relever des défis variés. Vous pourrez découvrir plus en détail mes compétences techniques et mes 
+                                réalisations dans les sections dédiées.
+                            </p>
+                        </section>
+                        <section className="spacer"></section>
                         <div className="link">
                             <h3>Retrouvez-moi</h3>
                             <div className="button">
-                                <button className="btn_shadow">
+                                <button className="btn_shadow box">
                                     <a href="https://github.com/quentinrld" target="_blank" rel="noreferrer">
                                         <DiGithubAlt/>
                                     </a>
                                 </button>
-                                <button className="btn_shadow">
+                                <button className="btn_shadow box">
                                     <a href="https://www.linkedin.com/in/quentin-roeland-6ba7b3274/" target="_blank" rel="noreferrer">
                                         <FaLinkedin/>
                                     </a>
                                 </button>
-                                <button className="btn_shadow">
-                                    <a href="mailto:quentin.roeland@gmail.com" >
+                                <button className="btn_shadow box">
+                                    <a href="mailto:quentin.roelandpro@outlook.com" >
                                         <AiOutlineMail/>
                                     </a>
                                 </button>
@@ -48,12 +60,12 @@ const Home = () => {
                     </div>
                     <div className="right">
                         <div className="right_img">
-                            <img className="img-profil" alt='' src={Profil_img} width={500}/>
+                            <img className="img-profil" alt='' src={Profil_img}/>
                         </div>
                     </div>
                 </div>
             </section>
-        </>
+  
     )
 }
 

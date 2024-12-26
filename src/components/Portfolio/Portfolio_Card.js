@@ -4,15 +4,20 @@ const About_Card = (props) => {
 
   return (
     <>
-      <div className='box btn_shadow'>
-        <div className="preuve-portfolio">{props.preuve}</div>
-        <div className="portfolio-resum">
-            <div className="thème-portfolio ">{props.thème} <div>{props.activité}</div></div>
-            <div className="heure">Valoriser / Prester<div>{props.HV} / {props.HP}</div></div>
-        </div>
-        <div className="avtiv-portfolio"></div>
-        <div className="desc-portfolio">{props.desc}</div>
-      </div>
+      <div className="box btn_shadow portfolio">
+                <div className="preuve-portfolio">{props.apercu}</div>
+                <div className="portfolio-resum">
+                    <div className="thème-portfolio">
+                        Projet : {props.projetName}
+                        <div>{props.techStack}</div>
+                    </div>
+                    <div className="heure">
+                        Équipe
+                        <div>{props.equipe}</div>
+                    </div>
+                </div>
+                <div className="desc-portfolio">{props.Description}</div>
+            </div>
     </>
   )
 }

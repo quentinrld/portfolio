@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./NavBar.css";
 import logo from "../../assets/logo-V2.jpg";
-import CV from "../../assets/cv stage.pdf";
+import CV from "../../assets/CV.pdf";
 
 const NavBar = () => {
     window.addEventListener("scroll", function() {

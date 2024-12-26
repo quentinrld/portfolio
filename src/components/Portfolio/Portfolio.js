@@ -13,12 +13,10 @@ const Portfolio = () => {
                     <div className="Portfolio-content">
                         {
                             data.map((item, index) => {
-                                return <Portfolio_Card key={index} preuve={item.Preuve} thème={item.Thème} activité={item.Activié} HP={item.HPresté} HV={item.HValidé} desc={item.Description}/>
-                            })
+                                return (
+                                        <Portfolio_Card key={index} apercu={item.apercu} projetName={item.projetName} techStack={item.techStack} equipe={item.equipe} Description={item.Description}/>                          
+                            )})
                         }
-                    </div>
-                    <div className='Portfolio-resum'>
-                        
                     </div>
                 </div>
             </section>

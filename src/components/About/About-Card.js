@@ -4,7 +4,7 @@ const About_Card = (props) => {
   return (
     <>
       <div className='box btn_shadow'>
-      {props.image}
+        <div className="tech-logo">{props.image}</div>
         <div className="title-card">{props.title}</div>
       </div>
     </>
