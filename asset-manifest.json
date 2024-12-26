@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ddaa9900.css",
-    "main.js": "/portfolio/static/js/main.4d84d24a.js",
+    "main.css": "/portfolio/static/css/main.522a6718.css",
+    "main.js": "/portfolio/static/js/main.2eb0f4a6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/natation.jpg": "/portfolio/static/media/natation.4fc81ba017e512b7b2a8.jpg",
-    "static/media/patro.jpg": "/portfolio/static/media/patro.79ca4ab0dca4ab0bda6a.jpg",
-    "static/media/hackaton1.jpg": "/portfolio/static/media/hackaton1.b6fd1ee2ba30d72796e1.jpg",
-    "static/media/soudure.png": "/portfolio/static/media/soudure.0c9f622d4e11409494b3.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.77929bfd72a9d051a14b.png",
     "static/media/profil-img-1.jpeg": "/portfolio/static/media/profil-img-1.552eed8a35cf43e49a36.jpeg",
-    "static/media/patterson2.jpg": "/portfolio/static/media/patterson2.f165b77eb95ed5b3219c.jpg",
-    "static/media/CTF-ephec.png": "/portfolio/static/media/CTF-ephec.70e779dcfed60d93f46b.png",
-    "static/media/Dévlopper un robot connecter en bluetooth.jpg": "/portfolio/static/media/Dévlopper un robot connecter en bluetooth.f068995c6842220455bb.jpg",
-    "static/media/cv stage.pdf": "/portfolio/static/media/cv stage.97a9ce3cb4e59b0afaf6.pdf",
-    "static/media/donnée personnelle .jpg": "/portfolio/static/media/donnée personnelle .c76d1fb8ec7ec20ef65a.jpg",
+    "static/media/Biobanque.jpg": "/portfolio/static/media/Biobanque.4aa02ff4f1ca49e007da.jpg",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.8f2c4de1b20e7e3b2af9.pdf",
     "static/media/logo-V2.jpg": "/portfolio/static/media/logo-V2.4c4d20b11f34bda069b1.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ddaa9900.css.map": "/portfolio/static/css/main.ddaa9900.css.map",
-    "main.4d84d24a.js.map": "/portfolio/static/js/main.4d84d24a.js.map",
+    "main.522a6718.css.map": "/portfolio/static/css/main.522a6718.css.map",
+    "main.2eb0f4a6.js.map": "/portfolio/static/js/main.2eb0f4a6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddaa9900.css",
-    "static/js/main.4d84d24a.js"
+    "static/css/main.522a6718.css",
+    "static/js/main.2eb0f4a6.js"
   ]
 }
